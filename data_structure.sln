@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeStructure", "TreeStructure\TreeStructure.vcproj", "{ECA9FD50-3E39-4D21-B4F9-1CFC68376243}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SortAlgorithm", "SortAlgorithm\SortAlgorithm.vcproj", "{FCBA143F-6511-47C5-AE00-7D6C86474E60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{ECA9FD50-3E39-4D21-B4F9-1CFC68376243}.Debug|Win32.Build.0 = Debug|Win32
 		{ECA9FD50-3E39-4D21-B4F9-1CFC68376243}.Release|Win32.ActiveCfg = Release|Win32
 		{ECA9FD50-3E39-4D21-B4F9-1CFC68376243}.Release|Win32.Build.0 = Release|Win32
+		{FCBA143F-6511-47C5-AE00-7D6C86474E60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCBA143F-6511-47C5-AE00-7D6C86474E60}.Debug|Win32.Build.0 = Debug|Win32
+		{FCBA143F-6511-47C5-AE00-7D6C86474E60}.Release|Win32.ActiveCfg = Release|Win32
+		{FCBA143F-6511-47C5-AE00-7D6C86474E60}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
