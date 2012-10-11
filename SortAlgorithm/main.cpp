@@ -4,10 +4,7 @@
 #include "stdafx.h"
 
 #include "insertion_sort.h"
-<<<<<<< HEAD
-=======
 #include "exchange_sort.h"
->>>>>>> origin/master
 #include "selection_sort.h"
 #include <iostream>
 #include <vector>
@@ -53,25 +50,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout<<"BubbleSort"<<endl;
 	data_array.assign(a,a+a_count);
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
-<<<<<<< HEAD
-	SelectionSort::BubbleSort(data_array);
-=======
 	ExchangeSort::BubbleSort(data_array);
->>>>>>> origin/master
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
 
 	cout<<"CocktailSort"<<endl;
 	data_array.assign(a,a+a_count);
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
-<<<<<<< HEAD
-	SelectionSort::CocktailSort(data_array);
-	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
-
-	cout<<"OddEvenSort"<<endl;
-	data_array.assign(a,a+a_count);
-	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
-	SelectionSort::OddEvenSort(data_array);
-=======
 	ExchangeSort::CocktailSort(data_array);
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
 
@@ -85,27 +69,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	data_array.assign(a,a+a_count);
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
 	ExchangeSort::OddEvenSort(data_array);
->>>>>>> origin/master
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
 
 	cout<<"QuickSort"<<endl;
 	data_array.assign(a,a+a_count);
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
-<<<<<<< HEAD
-	SelectionSort::QuickSort(data_array);
-=======
 	ExchangeSort::QuickSort(data_array);
->>>>>>> origin/master
 	copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
 
 	cout<<"BogoSort"<<endl;
 	data_array.assign(a,a+a_count);
-<<<<<<< HEAD
-	TestSortAlgorithm(data_array,SelectionSort::BogoSort);
-
-	cout<<"========================="<<endl;
-
-=======
 	TestSortAlgorithm(data_array,ExchangeSort::BogoSort);
 
 	cout<<"========================="<<endl;
@@ -124,7 +97,6 @@ int _tmain(int argc, _TCHAR* argv[])
     copy(data_array.begin()+1,data_array.end(),output);cout<<endl;
 
 
->>>>>>> origin/master
 	system("pause");
 	return 0;
 }
